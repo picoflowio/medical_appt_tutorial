@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "picoflow.io",
   description: "Tutorial: Medical Appointment Bot using NestJS and PicoFlow.",
+  base: '/medical-tutorial-site/',
   markdown: {
     lineNumbers: true
   },
