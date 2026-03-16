@@ -6,6 +6,26 @@
 </template>
 
 <style>
+.picoclaw-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.picoclaw-title h1 {
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.picoclaw-title__logo {
+  height: 40px !important;
+  width: 40px !important;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .picoclaw-badge {
   display: inline-flex;
   align-items: center;
